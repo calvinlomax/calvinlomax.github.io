@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calvin J. Lomax | Portfolio</title>
+  <meta name="description" content="Portfolio of Calvin J. Lomax, Indiana University Data Science student focused on machine learning, computer vision, and quantitative analysis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="#" class="brand">Calvin J. Lomax</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#working-on">What I'm Working On</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container reveal">
+      <p class="eyebrow">Data Science Undergraduate · Indiana University Bloomington</p>
+      <h1>I build machine learning and quantitative analysis tools, with current research in AI for food computing.</h1>
+      <p class="hero-copy">
+        I am a third-year Data Science major in the Luddy School of Informatics with a specialization in Data Systems, currently working as an Undergraduate Research Assistant in the AI fo Food Computing lab.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View Work</a>
+        <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+      </div>
+      <ul class="metrics">
+        <li><strong>400+</strong> models trained</li>
+        <li><strong>30TB+</strong> in datasets created and stratified</li>
+        <li><strong>6</strong> training pipelines built</li>
+      </ul>
+    </section>
+
+    <section id="about" class="container section reveal">
+      <div class="section-header">
+        <h2>About</h2>
+        <p>Background and current focus from my resume.</p>
+      </div>
+      <div class="project-grid">
+        <article class="card">
+          <h3>Education</h3>
+          <p>B.S. in Data Science, Data Systems Specialization, Indiana University Bloomington.</p>
+          <p class="impact"><strong>Expected Graduation:</strong> May 2027</p>
+          <div class="tags">
+            <span>Linear Algebra</span><span>Discrete Structures</span><span>Programming</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Current Roles</h3>
+          <p>Undergraduate Research Assistant in AI for Food Computing at Luddy, Founder of Alvestor, and President of the Data Analytics & Research Club.</p>
+          <p class="impact"><strong>Timeline:</strong> 2024 to present across research, product building, and leadership.</p>
+          <div class="tags">
+            <span>Computer Vision</span><span>ML Research</span><span>SaaS</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="working-on" class="container section reveal">
+      <div class="section-header">
+        <h2>What I'm Working On</h2>
+        <p>A look at my current research focuse and independent projects.</p>
+      </div>
+      <div class="project-grid">
+        <article class="card">
+          <h3>AI for Food Computing Lab</h3>
+          <p>Creating the initial dataset for an egocentric vision system for dietary assessment to be deployed on consumer smart glasses.</p>
+          <p class="impact"><strong>Next:</strong> Model Architecture Design</p>
+        </article>
+        <article class="card">
+          <h3>Current Pet Project</h3>
+          <p>Exploring replacing dense voxel grids with compressed low rank Fourier representations for 3D object reconstruction.</p>
+          <p class="impact"><strong>Next:</strong> CV implementation</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="container section reveal">
+      <div class="section-header">
+        <h2>Selected Projects</h2>
+        <p>Four projects with quantified project scope.</p>
+      </div>
+      <div class="project-grid">
+        <article class="card">
+          <h3>Fall 2025 Research Poster</h3>
+          <p>Built and trained multiple model architectures to solve multi-label allergen classification on a stratified dataset of 97,000 food images.</p>
+          <p class="impact"><strong>Result:</strong> Benchmarked <strong>2</strong> architectures (<strong>ResNet-18</strong> and <strong>MLA Transformer</strong>) under the same task setup for direct model comparison.</p>
+          <div class="tags">
+            <span>ResNet-18</span><span>MLA Transformer</span><span>Multi-Label CV</span>
+          </div>
+          <a href="assets/poster/cjlomax-Poster.pdf" target="_blank" rel="noreferrer">Research Poster (PDF)</a>
+        </article>
+
+        <article class="card">
+          <h3>Manual-Compression-BnW</h3>
+          <p>Tile-based image compression engine that learns grayscale dictionaries, encodes tile-index matrices, and reconstructs grayscale plus true 1-bit black-and-white outputs.</p>
+          <p class="impact"><strong>Result:</strong> Built an end-to-end 3-stage pipeline (`pattern.py`, `match_tiles.py`, `reconstruct.py`) with dictionaries up to <strong>16,384</strong> 8x8 patterns.</p>
+          <div class="tags">
+            <span>Python</span><span>Image Compression</span><span>Computer Vision</span>
+          </div>
+          <a href="https://github.com/Dylan-Apeman/Manual-Compression-BnW" target="_blank" rel="noreferrer">GitHub Repo</a>
+        </article>
+
+        <article class="card">
+          <h3>Quantitative-Analysis-Tools</h3>
+          <p>Collection of standalone Python tools for options pricing, portfolio construction, implied volatility surfaces, and Vega exposure analysis with live market data.</p>
+          <p class="impact"><strong>Result:</strong> Delivered <strong>7</strong> independent tools including binomial-tree American option valuation, Monte Carlo covered-call modeling, MPT allocation, and GARCH workflows.</p>
+          <div class="tags">
+            <span>Python</span><span>yfinance</span><span>Quant Finance</span>
+          </div>
+          <a href="https://github.com/Dylan-Apeman/Quantitative-Analysis-Tools" target="_blank" rel="noreferrer">GitHub Repo</a>
+        </article>
+
+        <article class="card">
+          <h3>HotDog-Classifier</h3>
+          <p>End-to-end recreation of Silicon Valley's Not Hotdog classifier using Food-101 hotdog data and Kaggle negative examples in a TensorFlow notebook pipeline.</p>
+          <p class="impact"><strong>Result:</strong> Built a balanced <strong>2,000-image</strong> dataset (1,600 train / 400 validation), trained a 3-layer CNN, and shipped <strong>2</strong> saved Keras models plus a Streamlit inference app.</p>
+          <div class="tags">
+            <span>TensorFlow</span><span>Keras</span><span>Streamlit</span>
+          </div>
+          <a href="https://github.com/Dylan-Apeman/HotDog-Classifier" target="_blank" rel="noreferrer">GitHub Repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="container section reveal">
+      <div class="section-header">
+        <h2>Resume</h2>
+        <p>Download a PDF copy of my resume.</p>
+      </div>
+      <a class="btn btn-primary" href="assets/resume/Calvin_Lomax_Resume.pdf" target="_blank" rel="noreferrer">Open Resume PDF</a>
+    </section>
+
+    <section id="contact" class="container section reveal">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Use the form below or email me directly.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Reach Me</h3>
+          <p><a href="mailto:calvinlomax@alvestor.net">calvinlomax@alvestor.net</a></p>
+          <p><a href="mailto:cjlomax@iu.edu">cjlomax@iu.edu</a></p>
+          <p><a href="tel:+12247148418">+1 (224) 714-8418</a></p>
+          <p><a href="https://www.linkedin.com/in/lomax-calvinjames" target="_blank" rel="noreferrer">LinkedIn</a></p>
+          <p><a href="https://github.com/Dylan-Apeman" target="_blank" rel="noreferrer">GitHub Profile</a></p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p id="form-note" class="form-note"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Calvin J. Lomax. Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
