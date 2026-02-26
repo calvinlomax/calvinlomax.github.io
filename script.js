@@ -35,6 +35,6 @@ if (contactForm instanceof HTMLFormElement && formNote) {
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
 
     formNote.textContent = "Opening your email client...";
-    window.location.href = `mailto:calvinlomax@alvestor.net?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:cjlomax@iu.edu?subject=${subject}&body=${body}`;
   });
 }
