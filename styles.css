@@ -59,7 +59,7 @@ a {
 }
 
 .brand {
-  font-family: "Fraunces", serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--text);
@@ -81,6 +81,33 @@ a {
   padding: 5rem 0 2.5rem;
 }
 
+.hero-headline {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-headline h1,
+.hero-headline h2 {
+  margin-bottom: 0;
+}
+
+.hero-photo {
+  width: clamp(210px, 27vw, 330px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
 .eyebrow {
   color: var(--accent-strong);
   text-transform: uppercase;
@@ -92,7 +119,7 @@ a {
 h1,
 h2,
 h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Merriweather", serif;
   line-height: 1.2;
   margin-top: 0;
 }
@@ -107,6 +134,7 @@ h1 {
   max-width: 56ch;
   color: var(--muted);
   font-size: 1.1rem;
+  margin-top: 0.8rem;
 }
 
 .hero-cta {
@@ -293,5 +321,9 @@ h1 {
 
   .hero {
     padding-top: 3.5rem;
+  }
+
+  .hero-headline {
+    flex-direction: column;
   }
 }
