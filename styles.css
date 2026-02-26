@@ -100,7 +100,7 @@ a {
 }
 
 .hero-photo {
-  width: clamp(210px, 27vw, 330px);
+  width: clamp(189px, 24.3vw, 297px);
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 16px;
