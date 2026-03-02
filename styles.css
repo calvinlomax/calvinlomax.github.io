@@ -3,8 +3,8 @@
   --bg-strong: #121a2a;
   --text: #e6edf7;
   --muted: #9aa8bc;
-  --accent: #fb923c;
-  --accent-strong: #f97316;
+  --accent: #2563eb;
+  --accent-strong: #1e3a8a;
   --card: #151f31;
   --border: #2d3a4f;
   --shadow: 0 16px 45px rgba(0, 0, 0, 0.45);
@@ -28,8 +28,8 @@ body {
   color: var(--text);
   background-color: var(--bg);
   background:
-    radial-gradient(circle at 20% 10%, rgba(249, 115, 22, 0.16), transparent 35%),
-    radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.12), transparent 30%),
+    radial-gradient(circle at 20% 10%, rgba(30, 58, 138, 0.24), transparent 35%),
+    radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.16), transparent 30%),
     linear-gradient(180deg, var(--bg) 0%, #070c15 100%);
   line-height: 1.55;
 }
@@ -164,7 +164,7 @@ h1 {
 
 .btn-primary {
   background: var(--accent);
-  color: #0f172a;
+  color: #eaf2ff;
 }
 
 .btn-primary:hover {
