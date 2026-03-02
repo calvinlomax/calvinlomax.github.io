@@ -1,13 +1,14 @@
 :root {
-  --bg: #f7f4eb;
-  --bg-strong: #efe8d8;
-  --text: #18212f;
-  --muted: #4b5563;
-  --accent: #c2410c;
-  --accent-strong: #9a3412;
-  --card: #fffdf8;
-  --border: #dfd4bc;
-  --shadow: 0 16px 45px rgba(24, 33, 47, 0.12);
+  --bg: #0a0f1a;
+  --bg-strong: #121a2a;
+  --text: #e6edf7;
+  --muted: #9aa8bc;
+  --accent: #fb923c;
+  --accent-strong: #f97316;
+  --card: #151f31;
+  --border: #2d3a4f;
+  --shadow: 0 16px 45px rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
 }
 
 *,
@@ -25,9 +26,9 @@ body {
   font-family: "Space Grotesk", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at 20% 10%, rgba(194, 65, 12, 0.08), transparent 35%),
-    radial-gradient(circle at 80% 20%, rgba(24, 33, 47, 0.06), transparent 30%),
-    linear-gradient(180deg, var(--bg) 0%, #f9f7f1 100%);
+    radial-gradient(circle at 20% 10%, rgba(249, 115, 22, 0.16), transparent 35%),
+    radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.12), transparent 30%),
+    linear-gradient(180deg, var(--bg) 0%, #070c15 100%);
   line-height: 1.55;
 }
 
@@ -47,8 +48,8 @@ a {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(8px);
-  background: rgba(247, 244, 235, 0.9);
-  border-bottom: 1px solid rgba(223, 212, 188, 0.8);
+  background: rgba(10, 15, 26, 0.86);
+  border-bottom: 1px solid rgba(45, 58, 79, 0.85);
 }
 
 .nav {
@@ -161,7 +162,7 @@ h1 {
 
 .btn-primary {
   background: var(--accent);
-  color: #fffaf2;
+  color: #0f172a;
 }
 
 .btn-primary:hover {
@@ -237,7 +238,7 @@ h1 {
 
 .tags span {
   border: 1px solid var(--border);
-  background: #faf5e8;
+  background: var(--bg-strong);
   border-radius: 999px;
   padding: 0.2rem 0.55rem;
   font-size: 0.82rem;
@@ -273,7 +274,13 @@ h1 {
   border-radius: 8px;
   padding: 0.65rem 0.7rem;
   font: inherit;
-  background: #fff;
+  color: var(--text);
+  background: var(--bg-strong);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--muted);
 }
 
 .contact-form button {
