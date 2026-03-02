@@ -19,12 +19,14 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--bg);
 }
 
 body {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
   color: var(--text);
+  background-color: var(--bg);
   background:
     radial-gradient(circle at 20% 10%, rgba(249, 115, 22, 0.16), transparent 35%),
     radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.12), transparent 30%),
