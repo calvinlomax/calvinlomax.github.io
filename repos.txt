@@ -1,3 +1,6 @@
+https://heimdall--th-calvin-sandbox.us-central1.hosted.app/
+https://github.com/Third-Horizon-Strategies/heimdall
+https://github.com/Third-Horizon-Strategies/odin-sandbox-app
 https://calvinlomax.github.io/machine-learning-game/
 https://github.com/Dylan-Apeman/Manual-Compression-BnW
 https://github.com/Dylan-Apeman/Quantitative-Analysis-Tools

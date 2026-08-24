@@ -380,6 +380,10 @@ a:focus-visible {
   font-weight: 700;
 }
 
+.card > a + a {
+  margin-left: 0.85rem;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
