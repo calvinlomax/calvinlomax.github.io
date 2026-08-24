@@ -50,7 +50,6 @@ No build system or framework is required.
 ├── styles.css                      # Theme, layout, responsiveness, animation styles
 ├── script.js                       # Reveal animation + contact form behavior
 ├── assets/
-│   ├── resume/Calvin_Lomax_Resume.pdf
 │   └── poster/cjlomax-Poster.pdf
 └── repos.txt                       # External project repository links
 ```
@@ -60,7 +59,7 @@ No build system or framework is required.
 - Update copy, links, and sections in `index.html`
 - Update visual design and responsive rules in `styles.css`
 - Update interaction logic in `script.js`
-- Replace resume/poster files in `assets/` as needed
+- Replace public document assets in `assets/` as needed
 
 ## Deployment
 
